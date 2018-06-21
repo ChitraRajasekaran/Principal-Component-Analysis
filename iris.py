@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-url = '/Users/chitrasekar2k5/Desktop/Machine Learning/Py4E/iris.txt'
+url = 'iris.txt'
 # load dataset into Pandas DataFrame
 df = pd.read_csv(url, names=['sepal length','sepal width','petal length','petal width','target'])
 from sklearn.preprocessing import StandardScaler
